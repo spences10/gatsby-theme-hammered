@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": [
+    "gatsby-theme-hammered",
+    "demo"
+  ],
+  "scripts": {
+    "dev": "yarn workspace demo dev",
+    "clean": "yarn workspace gatsby clean"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "es5",
+    "printWidth": 70,
+    "arrowParens": "avoid",
+    "proseWrap": "always"
+  }
+}
